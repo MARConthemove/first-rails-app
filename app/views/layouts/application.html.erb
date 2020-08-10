@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <div style="background: lightgray; padding: 15px;">
+      <%= link_to 'Home', root_path  %>
+      <%= link_to 'About us', about_us_path %>
+      <%= link_to 'Contact us', contact_path %>
+    </div>
     <%= yield %>
   </body>
 </html>
